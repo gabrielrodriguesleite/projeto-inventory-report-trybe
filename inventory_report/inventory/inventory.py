@@ -1,5 +1,6 @@
 import csv
 import json
+import xml.etree.cElementTree as et
 
 from inventory_report.reports.complete_report import CompleteReport
 
@@ -17,6 +18,10 @@ def csv_decode(file):
     return result
 
 
+def xml_decode(f):
+    return [{e.tag: e.text for e in r} for r in et.parse(f).getroot()]
+
+
 class Inventory:
     @staticmethod
     def import_data(arq, tipo):
@@ -26,6 +31,10 @@ class Inventory:
                 result = csv_decode(file)
             elif ".json" in arq:
                 result = json.load(file)
+            elif ".xml" in arq:
+                result = xml_decode(file)
+            else:
+                raise TypeError
 
         if tipo == "simples":
             return SimpleReport.generate(result)
