@@ -16,6 +16,11 @@ Trybe / Desenvolvimento Web / Ciência da computação
  - Git
  - Github
 
+  <img src="github_avaliador.jpeg" alt=""  width="50%" >
+  <img src="trybe_avaliador.png" alt="" style="float: right" width="49%" >
+
+
+
 ## Habilidades validadas:
 
 POO - Programação orientada a objetos 
