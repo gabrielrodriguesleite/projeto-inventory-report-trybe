@@ -16,24 +16,50 @@ Trybe / Desenvolvimento Web / Ciência da computação
  - Git
  - Github
 
-  <img src="github_avaliador.jpeg" alt=""  width="50%" >
-  <img src="trybe_avaliador.png" alt="" style="float: right" width="49%" >
+  <img src="github_avaliador.jpeg" alt=""  style="float: right" width="50%" >
+  <img src="trybe_avaliador.png" alt=""  width="49%" >
+  <img src="pytest_avaliador.png" alt="" width="49%" >
 
 
 
 ## Habilidades validadas:
 
-POO - Programação orientada a objetos 
-SOLID - 
-Padrões de projeto - Strategy, Inhenritance, Composition etc.
-Código Limpo e de fácil manutenção - Linter
-Leitura e escrita de arquivos (XML, CSV, JSON)
+`POO` - Programação orientada a objetos 
+
+`SOLID` - Single responsibility, Open/closed, Dependency inversion, Liskov Substitiuition, Interface segregation.
+
+`Padrões de projeto` - Strategy, Inhenritance, Composition etc.
+
+`Código Limpo e de fácil manutenção` - Linter
+
+`Leitura e escrita de arquivos` (XML, CSV, JSON)
+
+`TDD` - Desenvolvimento dirigido a teste
 
 ## Objetivo:
 
 Projeto gerador de relatórios, simples e completo, alimentado por arquivos com dados de estoque.
 
 Gera como saída um relatório sobre estes dados, provenientes de arquivos dos tipos: XML, CSV e JSON.
+
+## Para executar:
+
+É possível executar os testes usando Docker e Docker-compose
+
+```sh
+docker-compose run --rm inventory pytest
+```
+
+É possível acessar a imagem criada acima, instalar o projeto e executar com os comandos:
+
+```
+docker run -it projeto-inventory-report-trybe_inventory bash
+pip install .
+python -m inventory_report.main inventory_report/data/inventory.csv completo
+python -m inventory_report.main inventory_report/data/inventory.xml simples
+```
+
+
 
 ### Fontes:
 
