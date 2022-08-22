@@ -20,7 +20,7 @@ Trybe / Desenvolvimento Web / Ciência da computação
 
 POO - Programação orientada a objetos 
 SOLID - 
-Padrões de projeto - Strategy, Henritance, Composition etc.
+Padrões de projeto - Strategy, Inhenritance, Composition etc.
 Código Limpo e de fácil manutenção - Linter
 Leitura e escrita de arquivos (XML, CSV, JSON)
 
