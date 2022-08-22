@@ -42,17 +42,13 @@ Arquivos desenvolvidos por mim:
 - inventory_report/importer/json_importer.py
 - inventory_report/importer/xml_importer.py
 
-<!-- Olá, Tryber!
+- inventory_report/inventory/inventory.py
+- inventory_report/inventory/inventory_iterator.py
+- inventory_report/inventory/inventory_refactor.py
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+- inventory_report/reports/complete_report.py
+- inventory_report/reports/simmple_report.py
 
-É essencial que você preencha esse documento por conta própria, ok?
-
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
-
--->
+- tests/products/test_product.py
+- tests/product_report/test_product_report.py
+- tests/report_decorator/test_report_decorator.py
