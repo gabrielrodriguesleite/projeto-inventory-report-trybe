@@ -30,8 +30,17 @@ Projeto gerador de relatórios, simples e completo, alimentado por arquivos com 
 
 Gera como saída um relatório sobre estes dados, provenientes de arquivos dos tipos: XML, CSV e JSON.
 
+### Fontes:
 
+Todos os arquivos que não estiverem listados aqui são de autoria de [trybe-teck-ops](https://github.com/trybe-tech-ops)
 
+Arquivos desenvolvidos por mim:
+
+- inventory_report/main.py
+- inventory_report/importer/csv_importer.py
+- inventory_report/importer/importer.py
+- inventory_report/importer/json_importer.py
+- inventory_report/importer/xml_importer.py
 
 <!-- Olá, Tryber!
 
