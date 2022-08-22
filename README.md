@@ -83,3 +83,10 @@ Arquivos desenvolvidos por mim:
 - tests/products/test_product.py
 - tests/product_report/test_product_report.py
 - tests/report_decorator/test_report_decorator.py
+
+---
+
+####
+TODO:
+- Comandos de execução de cada módulo do projeto
+- Comandos de execução de cada teste do projeto
